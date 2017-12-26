@@ -26,11 +26,14 @@ see details in model.py, train.py and evaluate.py scripts.
 
 ## results
 
-### global (total acc:81.40%)
+### global 
+only use global information (total acc:81.40%)
 ![global confusion matrix](https://github.com/TianzhongSong/Multi-3DCNN-for-action-recognition/blob/master/global_confusion_matrix.jpg)
 
-### crop (total acc:79.07%)
+### crop 
+only use local information (total acc:79.07%)
 ![crop confusion matrix](https://github.com/TianzhongSong/Multi-3DCNN-for-action-recognition/blob/master/crop_confusion_matrix.jpg)
 
-### merge (total acc:87.44%)
+### merge 
+merge global and local information (total acc:87.44%)
 ![merge confusion matrix](https://github.com/TianzhongSong/Multi-3DCNN-for-action-recognition/blob/master/merge_confusion_matrix.jpg)
