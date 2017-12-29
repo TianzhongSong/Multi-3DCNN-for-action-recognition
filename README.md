@@ -10,6 +10,8 @@ Use SSD (https://github.com/rykov8/ssd_keras) to detect people and save images.
 
 KTH dataset:http://www.nada.kth.se/cvap/actions/
 
+![original and crop images](https://github.com/TianzhongSong/Multi-3DCNN-for-action-recognition/blob/master/images.png)
+
 #### model.py
 define the models
 
