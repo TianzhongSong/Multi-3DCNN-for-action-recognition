@@ -20,7 +20,7 @@ def load_data(image_path, flag):
         raise ('only support original and crop!')
 
     # total number of videos is 599
-    # 16 person for training, random obtain 4 clips from every video, 1536 = 16x4x5x6
+    # 16 person for training, random obtain 4 clips from every video, 1536 = 16x4x4x6
     # 9 person for validation, random obtain 1 clip from every video, 215 = 9x4x1x6-1
     seq_length = 16
     x_train = np.zeros((1536,seq_length,size,size,3),dtype='float32')
