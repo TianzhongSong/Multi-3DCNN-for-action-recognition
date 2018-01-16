@@ -1,4 +1,4 @@
-# -- coding: utf-8 --
+# -*- coding: utf-8 -*-
 import os
 from model import *
 from sklearn.svm import SVC
